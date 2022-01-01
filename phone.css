@@ -1,0 +1,200 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: auto;
+    height: auto;
+}
+
+#img {
+    display: none;
+}
+
+.head {
+    display: flex;
+    width: auto;
+    background-color: aquamarine;
+}
+
+.h {
+    font-size: 10px;
+    margin: 4px;
+   
+}
+
+.h a {
+    text-decoration: none;
+
+}
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    border: solid 3px;
+    height: auto;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    border: solid springgreen 3px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    animation-name: b3;
+    animation-duration: 20s;
+    
+
+}
+@keyframes b3 {
+    0%{background-color: rgb(255, 0, 0);}
+    10%{background-color: rgb(255, 0, 191);}
+    20%{background-color: rgb(89, 0, 255);}
+    30%{background-color: rgb(0, 89, 255);}
+    40%{background-color: aqua;}
+    50%{background-color: rgb(0, 255, 106);}
+    60%{background-color: rgb(0, 255, 34);}
+    70%{background-color: rgb(179, 255, 0);}
+    80%{background-color: rgb(255, 196, 0);}
+    90%{background-color: rgb(255, 115, 0);}
+    100%{background-color: rgb(255, 30, 0);}
+
+}
+
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+p{
+display: none;
+}
+#about {
+    height: auto;
+    border: solid rgb(255, 102, 0) 3px;
+    width: auto;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+}
+
+#box1 {
+    display: flex;
+    flex-direction: column;
+    
+    width: auto;
+}
+
+#box2 {
+    position:absolute;
+    height: auto;
+    /* margin: 10px; */
+    top: 25px;
+    width: auto;
+    /* border: solid red 3px; */
+}
+
+.Anies {
+    display: flex;
+
+
+}
+
+.Ani {
+
+    /* background-color: rgb(173, 114, 6); */
+    
+}
+
+#Ani1:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 255, 255);
+    /* height: 60px;
+    width: 60px; */
+    box-shadow: 4px 0px 4px 0px blue;
+}
+
+#Ani1 {
+    display: flex;
+    transition: all 1s ease-in-out .1s;
+    height: 21px;
+    width: 25px;
+
+}
+#box3 {
+    height: 18rem;
+    margin: 10px;
+    width: auto;
+    border: solid red 3px;
+}
+
+.box #icon1 {
+    height: 6rem;
+    margin: 5px;
+    background-color: rgb(66, 202, 248);
+    border: solid red 2px;
+    width: auto;
+}
+
+.box #icon2 {
+    height: 6rem;
+    margin: 5px;
+    background-color: rgb(66, 202, 248);
+    border: solid red 2px;
+    width: auto;
+}
+
+.box #icon3 {
+    height: 6rem;
+    margin: 5px;
+    background-color: rgb(66, 202, 248);
+    border: solid red 2px;
+    width: auto;
+}
+
+.box #icon4 {
+    height: 6rem;
+    margin: 5px;
+    background-color: rgb(66, 202, 248);
+    border: solid red 2px;
+    width: auto;
+}
+
+.box #icon5 {
+    height: 6rem;
+    margin: 5px;
+    background-color: rgb(66, 202, 248);
+    border: solid red 2px;
+    width: auto;
+}
+
+.box #icon6 {
+    height: 6rem;
+    margin: 5px;
+    background-color: rgb(66, 202, 248);
+    border: solid red 2px;
+    width: auto;
+}
+
+
+#contact {
+    display: flex;
+    flex-direction: row;
+    height: 30rem;
+    border: solid rgb(255, 0, 200) 3px;
+    width: auto;
+}
+.text{
+    font-size: 20px;
+    color: crimson;
+    font-family: cursive;
+}
